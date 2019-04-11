@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="ui fluid container home"
+>
+  <div
+    className="ui inverted segment"
+  >
+    <div
+      className="ui feed"
+    >
+      <div
+        className="event menu-user"
+      >
+        <div
+          className="label"
+        >
+          <img
+            alt="Carlos"
+            src="https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=10218601008714709&height=200&width=200&ext=1557472835&hash=AeR501syOinLmuJu"
+          />
+        </div>
+        <div
+          className="content"
+        >
+          <div
+            className="summary"
+          >
+            <a
+              className="user"
+            >
+              Carlos
+            </a>
+            <button
+              className="ui circular icon button logout"
+              onClick={[Function]}
+            >
+              <i
+                aria-hidden="true"
+                className="log out icon"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h4
+    className="ui header"
+  >
+    <i
+      aria-hidden="true"
+      className="spotify icon"
+    />
+    <div
+      className="content"
+    >
+      PLAYLIST:
+       
+      <div
+        aria-expanded={false}
+        className="ui inline dropdown"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        role="listbox"
+        tabIndex={0}
+      >
+        <div
+          aria-live="polite"
+          className="text"
+          role="alert"
+        >
+          PICK ONE
+        </div>
+        <i
+          aria-hidden="true"
+          className="dropdown icon"
+          onClick={[Function]}
+        />
+        <div
+          className="menu transition"
+        >
+          <div
+            className="header"
+          >
+            Adjust time span
+          </div>
+          <div
+            aria-checked={true}
+            aria-selected={true}
+            className="active selected item"
+            onClick={[Function]}
+            role="option"
+            style={
+              Object {
+                "pointerEvents": "all",
+              }
+            }
+          >
+            <span
+              className="text"
+            >
+              PICK ONE
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </h4>
+  <div
+    className="ui celled grid"
+  >
+    <div
+      className="ten column row"
+    >
+      <div
+        className="three wide column"
+      >
+        <p
+          className="titleText"
+        >
+          PLAYLIST
+        </p>
+        <p
+          onClick={[Function]}
+        >
+          Acoustic
+        </p>
+        <p
+          onClick={[Function]}
+        >
+          Rock
+        </p>
+        <p
+          onClick={[Function]}
+        >
+          Relax
+        </p>
+      </div>
+      <div
+        className="ui active transition visible dimmer"
+        onClick={[Function]}
+      >
+        <div
+          className="content"
+        >
+          <div
+            className="ui indeterminate text loader"
+          >
+            Loading Playlist
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="ui-alerts top-right "
+  />
+</div>
+`;
