@@ -1,0 +1,51 @@
+{
+  "extends": ["airbnb", "plugin:flowtype/recommended", "prettier", "prettier/flowtype", "prettier/react"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": { "legacyDecorators": true }
+  },
+  "plugins": ["flowtype", "prettier"],
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true,
+    "jasmine": true,
+    "jest": true
+  },
+  "rules": {
+    "prettier/prettier": ["warn", {
+      "singleQuote": true,
+      "trailingComma": "all",
+      "bracketSpacing": true,
+      "jsxBracketSameLine": false,
+      "parser": "babylon"
+    }],
+
+    "react/forbid-prop-types": 2,
+    "react/jsx-filename-extension": ["off", { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": 0,
+    "react/prop-types": 0,
+
+    "jsx-a11y/accessible-emoji": 0,
+
+    "import/prefer-default-export": 1,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": [2, { "ignore":
+      [ "app-*" ]
+    }],
+
+    "flowtype/no-types-missing-file-annotation": 0,
+
+    "class-methods-use-this": 0,
+    "no-console": 0,
+    "no-use-before-define": 0,
+    "global-require": 0,
+    "no-multi-str": 0,
+    "no-return-assign": [2, "except-parens"]
+  },
+  "globals": {
+    "__DEV__": true,
+    "window": true,
+    "fetch": true
+  }
+}
