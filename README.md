@@ -37,4 +37,7 @@ Update the Github page [cfontana0.github.io](https://cfontana0.github.io/spotify
 ## TEST
 
 `yarn test`
+Runs the jest coverage tests and shows them on the console
+
 `yarn coverage`
+Runs the jest coverage tests and shows them on a [website](http://localhost:8500/)
