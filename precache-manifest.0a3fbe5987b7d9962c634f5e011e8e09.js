@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5e132dd412682d994080",
+    "revision": "12c84b5f633927ac29d5",
     "url": "/spotify-client/static/css/main.113f5ad9.chunk.css"
   },
   {
-    "revision": "5e132dd412682d994080",
-    "url": "/spotify-client/static/js/main.5e132dd4.chunk.js"
+    "revision": "12c84b5f633927ac29d5",
+    "url": "/spotify-client/static/js/main.12c84b5f.chunk.js"
   },
   {
     "revision": "287e36dbdcf47e09a25f",
@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/spotify-client/static/media/icons.b87b9ba5.ttf"
   },
   {
-    "revision": "13db00b7a34fee4d819ab7f9838cc428",
-    "url": "/spotify-client/static/media/brand-icons.13db00b7.eot"
-  },
-  {
     "revision": "c5ebe0b32dc1b5cc449a76c4204d13bb",
     "url": "/spotify-client/static/media/brand-icons.c5ebe0b3.ttf"
+  },
+  {
+    "revision": "13db00b7a34fee4d819ab7f9838cc428",
+    "url": "/spotify-client/static/media/brand-icons.13db00b7.eot"
   },
   {
     "revision": "82f60bd0b94a1ed68b1e6e309ce2e8c3",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/spotify-client/static/media/brand-icons.a1a749e8.svg"
   },
   {
-    "revision": "b84e620b987d9b56ca971aaacea63a24",
+    "revision": "7d65cece9164430b5941ed49a3f17a45",
     "url": "/spotify-client/index.html"
   }
 ];
