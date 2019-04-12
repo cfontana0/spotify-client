@@ -31,7 +31,7 @@ Your app is ready to be deployed!
 Builds the app for production like `yarn build`
 
 `yarn deploy`
-Update the Github website: https://cfontana0.github.io/spotify-client/
+Update the Github page [cfontana0.github.io](https://cfontana0.github.io/spotify-client/)
 
 
 ## TEST
